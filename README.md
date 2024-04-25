@@ -6,8 +6,9 @@ O dataset é composto por uma grande quantidade de Features, desde peso, altura,
 
 O target para predições é o nível de obesidade do paciente. Utilizei Logistic Regression do scikit learn para este modelo específico, porém também fiz uma versão com RandomForest que obteve resultados bem interessantes também.
 
+Por fim, criei uma API no Streamlit que postarei em outro repositório, como forma de outras pessoas poderem também fazer predições inserindo seus próprios dados.
 
-
+Requerimentos do projeto abaixo:
 
 ```bash
 conda create -n ml python=3.8
